@@ -1,0 +1,74 @@
+* {
+	font-family: 'Amatic SC', cursive;, cursive;
+}
+
+body {
+	background-image: url('http://s7.postimg.org/qcs5098e3/criss_Xcross_2_X.png');
+	background-repeat: repeat; 
+}
+
+h1{
+	color:white;
+	text-align: center;
+	font-size: 120px;
+	margin-top: 12px;
+	margin-bottom: 0px;
+	font-family: 'Amatic SC', cursive;
+}
+
+#game-board{
+	min-width: 100px;
+	max-width: 650px;
+	margin: 0px auto;
+}
+
+.initial-color {
+	background-color: white;
+	width: 48px;
+	float: left;
+	height: 48px;
+	border:  2px gray;
+	border-radius: 50%;
+	margin: 14px;
+	padding: 40px;
+	cursor: pointer;
+}
+
+.initial-color:hover {
+	background-color: #F2F2F2;
+}
+
+button:focus {
+	outline:0;
+}
+
+#extras {
+	width: 362px;
+	margin: 10px auto 0px;
+}
+
+#play-with-timer {
+	width: 150px;
+}
+
+#button-new-game {
+	width: 210px;
+}
+
+#play-with-timer, #button-new-game {
+	font-weight: bolder;
+	font-size: 30px;
+	margin-left: 0px;
+	text-align: center;
+	color: black;
+}
+
+#play-with-timer{
+	cursor: pointer;
+}
+
+a {
+	cursor: pointer;
+	text-decoration:none; 
+	color: inherit;
+}
